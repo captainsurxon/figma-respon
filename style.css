@@ -9,41 +9,49 @@
 .container{
     max-width: 1441px;
     margin: 0 auto;
-    
-.box{
-    padding-left: 78px;
-}
-}
+}   
+
 .count_left{
-    width: 50%;
+    width: 530px;
     color: white;
 
 }
 .count_right{
-    width: 50%;
+    width: 530px;
     color: white;
 }
 .one_text_p{
     display: flex;
     gap: 11px;
-    padding-top: ;
 }
 .p_left{
-    width: 50%;
+    width: 530px;
     border-bottom: 1px solid #F2F2F2;
+}
+
+.p_left input{
+    background-color: #000;
+    border: 1px solid #000;
+    font-size: 18px;
+
 }
 .p_right{
-    width: 50%;
+    width: 530px;
     border-bottom: 1px solid #F2F2F2;
 }
 
+.container input{
+    background-color: #000;
+    border: 1px solid #000;
+    font-size: 18px;
+}
 
 .count_left_2{
-    width: 50%;
+    width: 530px;
     color: white;
 }
 .count_right_2{
-    width: 50%;
+    width: 330px;
     color: white;
 }
 .two_text_p{
@@ -51,11 +59,11 @@
     gap: 11px;
 }
 .p_left_2{
-    width: 50%;
+    width: 530px;
     border-bottom: 1px solid #F2F2F2;
 }
 .p_right_2{
-    width: 50%;
+    width: 530px;
     border-bottom: 1px solid #F2F2F2;
 }
 
@@ -64,11 +72,11 @@
 
 
 .count_left_3{
-    width: 50%;
+    width: 530px;
     color: white;
 }
 .count_right_3{
-    width: 50%;
+    width: 530px;
     color: white;
 }
 .three_text_p{
@@ -76,11 +84,11 @@
     gap: 11px;   
 }
 .p_left_3{
-    width: 50%;
+    width: 530px;
     border-bottom: 1px solid #F2F2F2;
 }
 .p_right_3{
-    width: 50%;
+    width: 530px;
     border-bottom: 1px solid #F2F2F2;
 }
 
@@ -93,7 +101,7 @@
     gap: 11px;   
 }
 .p_left_4{
-    width: 100%;
+    width: 530px;
     border-bottom: 1px solid #F2F2F2;
 }
 
@@ -114,7 +122,9 @@
     display: flex;
     background-color: #000;
     color: white;
-    padding: 33px;
+    padding-left: 170px;
+    padding-top: 40px;
+    gap: 50px;
 }
 .box input{
     width: 193px;
