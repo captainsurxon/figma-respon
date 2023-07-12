@@ -196,17 +196,20 @@ section{
     display: flex;
     gap: 16px;
     align-items: center;
+    cursor: pointer;
 }
 .inb{
     display: flex;
     gap: 16px;
     align-items: center;
+    cursor: pointer;
 }
 
 .geo{
     display: flex;
     gap: 16px;
     align-items: start;
+    cursor: pointer;
 }
 
 .section4{
@@ -238,20 +241,29 @@ section{
 .logo1{
     padding-top: 10px;
 }
-    @media  (max-width: 390px) {
-    .body {
-      max-width: 390px;
-      margin: 0 auto;
+    @media (min-width: 481px) and (max-width: 390px) {
+    .container {
+      flex-direction: column-reverse;
       display: flex;
-      justify-content: center;
+      flex-wrap: nowrap;
+    }
+    .container {
+      max-width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
     }
   }
-  @media (max-width: 390px) {
-    .section {
-      justify-content: center;
+
+  @media (min-width: 481px) and (max-width: 390px) {
+    .HEAD {
+      flex-direction: column-reverse;
       display: flex;
-      background-color: blueviolet;
-      color: white;
+      flex-wrap: wrap;
+    }
+    .HEAD {
+      max-width: 100%;
+      display: flex;
+      flex-wrap: wrap;
     }
   }
   
